@@ -884,7 +884,7 @@ min-width: 100%;
 }
 
 .text-part >p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 400;
   padding: 1.25rem 0rem;
   color: var(--text-primary);
@@ -1823,7 +1823,7 @@ footer{
     font-size: 1.5rem;
   }
   .text-part p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .about-section{
@@ -1952,13 +1952,13 @@ footer{
     flex-wrap: wrap;
   }
   .mil > h1 {
-    width: 27rem;
+    width: 24rem;
     font-size: 2rem;
   }
 
   .mil > p {
     width: 50%;
-    font-size: 1rem;
+    font-size: .8rem;
   }
   .mil {
     padding-left: 0rem;
@@ -2017,11 +2017,11 @@ footer{
     left: 50%;
   }
   
-  .text-part h3 {
+  .text-part> h3 {
     font-size: 1.5rem;
   }
-  .text-part p {
-    font-size: 1.3rem;
+  .text-part> p {
+    font-size: 1rem;
   }
   .text-part {
     width: 100%;
@@ -2219,7 +2219,7 @@ form textarea{
     font-size: 1.5rem;
   }
   .text-part p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .about-section{
@@ -2390,7 +2390,7 @@ form textarea{
     font-size: 1.5rem;
   }
   .text-part p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .about-section{
@@ -2519,7 +2519,7 @@ form textarea{
     font-size: 1.5rem;
   }
   .text-part p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
 
