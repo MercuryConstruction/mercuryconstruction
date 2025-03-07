@@ -108,22 +108,6 @@ function toogleNav(){
 
 
 
-function metrices(){
-    var div=document.querySelectorAll(".happy")
-    div.forEach(function(e1){
-        e1.addEventListener("mouseenter",()=>{
-            e1.querySelector(".blue2").style.height=`100%`
-            e1.children[0].style.color=`black`
-            e1.children[1].style.color=`black`
-
-        })
-        e1.addEventListener("mouseleave",()=>{
-            e1.querySelector(".blue2").style.height=`0%`
-             e1.children[0].style.color=`white`
-            e1.children[1].style.color=`white`
-        })
-   } )
-   }
 
 
 
@@ -167,7 +151,6 @@ faqRightIcon.forEach(function(elem, index){
     elem.addEventListener('click', function(){
         // Only toggle the corresponding answer
         const answer = faqAnswer[index];
-        console.log(answer);
         if(!isRotated) {
             elem.style.transform = 'rotate(45deg)';
             isRotated = true;
@@ -315,7 +298,6 @@ window.onload = function() {
 
 
 toogleNav()
-metrices()
 scrollTriggerLocomotive()
 fiterbaleImageGallery()
 increaseNumber()
